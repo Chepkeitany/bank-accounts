@@ -7,7 +7,7 @@ class Savings extends Account {
     super(balance); // calling base class constructor using super() keyword
   }
 
-  // Overriding method defined in base class
+  // Overriding methods defined in base class
   // Method overriding is used as dynamic polymorphism
   public void Deposit(double amount) {
     balance += amount + (amount * interestRate);
